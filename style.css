@@ -1,0 +1,180 @@
+.companylogo {
+    max-width: 100%;
+    height: 34px;
+}
+#by {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    display: block;
+    padding-top: 18px;
+}
+
+.navbar-brand {
+    display: block;
+    margin-right: 5px;
+}
+#logo {
+    display: flex;
+    
+}
+.dropdown-menu {
+    border-radius: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-toggler {
+    margin-right: 0px;
+}
+#login {
+    background-color: white;
+    color: black;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+#login:hover {
+    background-color: #F8F9FA;
+}
+/* modification du modal*/
+.modal-dialog {
+    max-width: 350px;
+}
+.modal-content, .modal-header {
+    border-radius: 0px;
+}
+
+#mt-center {
+   margin-left: 125px;
+    margin-top: 4px;
+}
+.modal-header {
+    height: 50px;
+    color: white;
+}
+#password, #email {
+    margin-top: 18px;
+}
+#fpass {
+    font-size: small;
+}
+#fcb-btn {
+    background-color: #1b74e4;
+    font-size: small;
+}
+#g-btn {
+    font-size: small;
+}
+.modal-footer {
+    height: 50px;
+    align-items: center;
+}
+#pform {
+    font-size: 12px;
+}
+#mt-center2 {
+    margin-left: 50px;
+     margin-top: 4px;
+}
+#mt-center3 {
+    margin-left: 100px;
+     margin-top: 4px;
+}
+
+#info {
+    background-color: #5524e0;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    /*position: fixed;*/
+}
+.btn-outline-light:hover {
+    color: #5524e0;
+}
+#start {
+    background-color: #5524e0;
+    border: 1px solid #5524e0;
+    border-radius: 10px;
+}
+#partner {
+    background-color: rgba(66,65,65,0.8); 
+    margin-top: 20vmin;
+}
+#partner .col-12 {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#producthunt {
+    max-width: 200px;
+    height: auto;
+}
+#businessinsider {
+    max-width: 100px;
+    height: auto;
+    filter: invert(30%) brightness(160%);
+}
+#forbes {
+    max-width: 100px;
+    height: auto;
+    filter: invert(30%) brightness(160%);
+}
+#techcrunch {
+    max-width: 150px;
+    height: auto;
+    filter: invert(30%) brightness(160%);
+}
+#svj {
+    max-width: 120px;
+    height: auto;
+    filter: invert(30%) brightness(160%);
+}
+#udacity {
+    max-width: 120px;
+    height: auto;
+    filter: invert(30%) brightness(160%);
+}
+#join {
+    margin-top: 8vmin;
+}
+kbd {
+    background-color: #5524e0;
+}
+.rounded {
+   width: 100px;
+}
+#number {
+    width: 50px;
+    border-radius: 50%;
+    font-size: 28px;
+    border: 3px solid #5524e0;
+    background-color: white; 
+    color: #5524e0;
+}
+.footerlinkedinlink {
+    width: 35px;
+    height: 35px;
+    min-width: 0;
+}
+.footerfacebooklink {
+    width: 35px;
+    height: 35px;
+    min-width: 0;
+  }
+  .footertweeterlink {
+    width: 35px;
+    height: 35px;
+    min-width: 0;
+  }
+  #foot {
+      font-size: 15px;
+  }
+  #ftlk {
+      text-decoration: none;
+  }
+  #ftlk:hover {
+    color: palevioletred; 
+  }
