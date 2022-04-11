@@ -12,178 +12,180 @@
 </head>
 <body>
   <div class="container-fluid"> 
-    <div class="row justify-content-center">
-      <nav class="navbar navbar-expand-lg navbar-light col-12 col-lg-9 justify-content-between">
-        <div id="logo">
-          <a class="navbar-brand" href="#">
-            <img src="https://www.pramp.com/img/HeaderLogo.png" alt="Logo de la marque" class="companylogo">
-          </a>
-          <a href="#" target="blank" id="by">by Exponent</a>
-        </div>
-        
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-        <div>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  INTERVIEW TYPES
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">DATA STRUSTURES & ALGORITHMS</a></li>
-                  <li><a class="dropdown-item" href="#">PRODUCT MANAGEMENT</a></li>
-                  <li><a class="dropdown-item" href="#">BEHAVIORAL</a></li>
-                  <a class="dropdown-item" href="#">SYSTEM DESIGN</a></li>
-                  <li><a class="dropdown-item" href="#">FRONTEND</a></li>
-                  <li><a class="dropdown-item" href="#">DATA SCIENCE</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">COURSES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="login">
-                  LOG IN
-                </button>
+    <header class="fixed-top">
+      <div class="row justify-content-center" style="background-color: white;">
+        <nav class="navbar navbar-expand-lg navbar-light col-12 col-lg-9 justify-content-between">
+          <div id="logo">
+            <a class="navbar-brand" href="#">
+              <img src="https://www.pramp.com/img/HeaderLogo.png" alt="Logo de la marque" class="companylogo">
+            </a>
+            <a href="#" target="blank" id="by">by Exponent</a>
+          </div>
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+          <div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    INTERVIEW TYPES
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">DATA STRUSTURES & ALGORITHMS</a></li>
+                    <li><a class="dropdown-item" href="#">PRODUCT MANAGEMENT</a></li>
+                    <li><a class="dropdown-item" href="#">BEHAVIORAL</a></li>
+                    <a class="dropdown-item" href="#">SYSTEM DESIGN</a></li>
+                    <li><a class="dropdown-item" href="#">FRONTEND</a></li>
+                    <li><a class="dropdown-item" href="#">DATA SCIENCE</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">COURSES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="login">
+                    LOG IN
+                  </button>
 
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-      <!-- Modal 1 -->
-    <div class="modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header bg-success">
-            <div id="mt-center">
-              <h5 class="modal-title text-center" id="staticBackdropLabel">LOG IN</h5>
-            </div>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <input type="email" class="form-control" id="email" placeholder="Email">
-            <input type="password" class="form-control" id="password" placeholder="Password">
-            <button type="button" class="btn btn-link" data-bs-target="#ModalToggle2" data-bs-toggle="modal" id="fpass">
-              forget password?
-            </button>
-            <button class="btn btn-success form-control mt-4" type="button">CONTINUE</button>
-            <div class="row mt-4">
-              <div class="col-6">
-                <button class="btn btn-success form-control" type="button" id="fcb-btn">
-                  CONTINUE with <i class="fa-brands fa-facebook-f"></i>
-                </button>
-              </div>
-              <div class="col-6">
-                <button class="btn btn-danger form-control" type="button" id="g-btn">
-                  CONTINUE with <i class="fa-brands fa-google"></i>
-                </button>
-              </div>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="modal-footer justify-content-center">
-            <p style="opacity: 0.4; font-size: small;">
-              Don't have an account?
-            </p>
-            <button type="button" class="btn btn-link text-success" data-bs-target="#ModalToggle3" data-bs-toggle="modal" style="font-size: small;">
-              Sign up 
-            </button>
+        </nav>
+      </div>
+        <!-- Modal 1 -->
+      <div class="modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header bg-success">
+              <div id="mt-center">
+                <h5 class="modal-title text-center" id="staticBackdropLabel">LOG IN</h5>
+              </div>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <input type="email" class="form-control" id="email" placeholder="Email">
+              <input type="password" class="form-control" id="password" placeholder="Password">
+              <button type="button" class="btn btn-link" data-bs-target="#ModalToggle2" data-bs-toggle="modal" id="fpass">
+                forget password?
+              </button>
+              <button class="btn btn-success form-control mt-4" type="button">CONTINUE</button>
+              <div class="row mt-4">
+                <div class="col-6">
+                  <button class="btn btn-success form-control" type="button" id="fcb-btn">
+                    CONTINUE with <i class="fa-brands fa-facebook-f"></i>
+                  </button>
+                </div>
+                <div class="col-6">
+                  <button class="btn btn-danger form-control" type="button" id="g-btn">
+                    CONTINUE with <i class="fa-brands fa-google"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <p style="opacity: 0.4; font-size: small;">
+                Don't have an account?
+              </p>
+              <button type="button" class="btn btn-link text-success" data-bs-target="#ModalToggle3" data-bs-toggle="modal" style="font-size: small;">
+                Sign up 
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Modal 2 -->
-    <div class="modal" id="ModalToggle2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-sm">
-        <div class="modal-content">
-          <div class="modal-header bg-success">
-            <div id="mt-center2">
-              <h5 class="modal-title text-center" id="staticBackdropLabel">FORGOT PASSWORD</h5>
+      <!-- Modal 2 -->
+      <div class="modal" id="ModalToggle2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+          <div class="modal-content">
+            <div class="modal-header bg-success">
+              <div id="mt-center2">
+                <h5 class="modal-title text-center" id="staticBackdropLabel">FORGOT PASSWORD</h5>
+              </div>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <input type="email" class="form-control" id="email" placeholder="Email">
-            <button class="btn btn-success form-control mt-4" type="button">SEND</button>
-          </div>
-          <div class="modal-footer justify-content-center">
-            <p style="opacity: 0.4; font-size: small;">
-              Don't have an account?
-            </p>
-            <button type="button" class="btn btn-link text-success" data-bs-target="#ModalToggle3" data-bs-toggle="modal" style="font-size: small;">
-              Sign up 
-            </button>
+            <div class="modal-body">
+              <input type="email" class="form-control" id="email" placeholder="Email">
+              <button class="btn btn-success form-control mt-4" type="button">SEND</button>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <p style="opacity: 0.4; font-size: small;">
+                Don't have an account?
+              </p>
+              <button type="button" class="btn btn-link text-success" data-bs-target="#ModalToggle3" data-bs-toggle="modal" style="font-size: small;">
+                Sign up 
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Modal 3 -->
-    <div class="modal" id="ModalToggle3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header bg-success">
-            <div id="mt-center3">
-              <h5 class="modal-title text-center" id="staticBackdropLabel">JOIN PRAMP</h5>
+      <!-- Modal 3 -->
+      <div class="modal" id="ModalToggle3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header bg-success">
+              <div id="mt-center3">
+                <h5 class="modal-title text-center" id="staticBackdropLabel">JOIN PRAMP</h5>
+              </div>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row ">
-              <div class="col-6">
-                <input type="text" class="form-control" name="first-name" placeholder="First name">
+            <div class="modal-body">
+              <div class="row ">
+                <div class="col-6">
+                  <input type="text" class="form-control" name="first-name" placeholder="First name">
+                </div>
+                <div class="col-6">
+                  <input type="text" class="form-control" name="last-name" placeholder="Last name">
+                </div>
               </div>
-              <div class="col-6">
-                <input type="text" class="form-control" name="last-name" placeholder="Last name">
+              <input type="email" class="form-control" id="email" placeholder="Email">
+              <input type="password" class="form-control" id="password" placeholder="Password">
+              <p id="pform" class="mt-1">
+                By joining, I accept the <a href="#">terms of service</a> and <a href="#">privacy policy</a>
+              </p> 
+              <button class="btn btn-success form-control mt-1" type="button">CONTINUE</button>
+              <div class="row mt-4">
+                <div class="col-6">
+                  <button class="btn btn-success form-control" type="button" id="fcb-btn">
+                    CONTINUE with <i class="fa-brands fa-facebook-f"></i>
+                  </button>
+                </div>
+                <div class="col-6">
+                  <button class="btn btn-danger form-control" type="button" id="g-btn">
+                    CONTINUE with <i class="fa-brands fa-google"></i>
+                  </button>
+                </div>
               </div>
             </div>
-            <input type="email" class="form-control" id="email" placeholder="Email">
-            <input type="password" class="form-control" id="password" placeholder="Password">
-            <p id="pform" class="mt-1">
-              By joining, I accept the <a href="#">terms of service</a> and <a href="#">privacy policy</a>
-            </p> 
-            <button class="btn btn-success form-control mt-1" type="button">CONTINUE</button>
-            <div class="row mt-4">
-              <div class="col-6">
-                <button class="btn btn-success form-control" type="button" id="fcb-btn">
-                  CONTINUE with <i class="fa-brands fa-facebook-f"></i>
-                </button>
-              </div>
-              <div class="col-6">
-                <button class="btn btn-danger form-control" type="button" id="g-btn">
-                  CONTINUE with <i class="fa-brands fa-google"></i>
-                </button>
-              </div>
+            <div class="modal-footer justify-content-center">
+              <p style="opacity: 0.4; font-size: small;">
+                Already a member?
+              </p>
+              <button type="button" class="btn btn-link text-success" data-bs-target="#staticBackdrop" data-bs-toggle="modal" style="font-size: small;">
+                Log in
+              </button>
             </div>
-          </div>
-          <div class="modal-footer justify-content-center">
-            <p style="opacity: 0.4; font-size: small;">
-              Already a member?
-            </p>
-            <button type="button" class="btn btn-link text-success" data-bs-target="#staticBackdrop" data-bs-toggle="modal" style="font-size: small;">
-              Log in
-            </button>
           </div>
         </div>
       </div>
-    </div>
+      
+      <div class="row" >
+        <div class="col-12" id="info">
+          Exclusive: Mock interviews from experts at Google, Facebook, and more (20% off) 
+          <a class="btn btn-outline-light" href="#" role="button">Learn more</a>
+        </div> 
+      </div>
+    </header>
     
-    <div class="row" >
-      <div class="col-12" id="info">
-        Exclusive: Mock interviews from experts at Google, Facebook, and more (20% off) 
-        <a class="btn btn-outline-light" href="#" role="button">Learn more</a>
-      </div> 
-    </div>
-    
-    <div class="row justify-content-center">
+    <div class="row justify-content-center" style="margin-top: 200px;">
       <div class="col-12 col-lg-5 text-center fs-2" id="title" style="font-weight: 650;">
         <p>
           Interviewing: the most profitable skill you can learn
@@ -406,7 +408,7 @@
 
     </div>
 
-    <div class="row">
+    <div class="row" id="truc">
 
       <div class="row justify-content-center">
         <div class="col-12 col-lg-5 text-center fs-2" id="title" style="font-weight: 650;">
@@ -455,8 +457,9 @@
         </div>
       </div>
     </div>
+    </div>
 
-    <div class="row justify-content-center container-fluid" style="background-color: #F0F0F0; margin-top: 10vmin; padding-top: 10vmin;">
+    <div class="row justify-content-center" style="background-color: #F0F0F0; margin-top: 10vmin; padding-top: 10vmin;">
       <div class="col-12 col-lg-3">
         <div class="row justify-content-center">
           <div class="col-4">
@@ -517,23 +520,24 @@
     </div>
 
     <div class="row justify-content-center" id="foot">
-      <div class="col-12 col-lg-2 ">
+      <div class="col-12 col-lg-4 justify-content-center text-center">
         © Exponent Labs, LLC.
+        <p style="display: inline-block; margin-left: 15px; padding-right: 15px;" class="border-end">
+          <span style="opacity: 0.5;">    Contact us at:  </span>
+          <a href="#">hello@pramp.com</a> 
+        </p>
       </div>
-      <div class="col-12 col-lg-2 border-end">
-        <span style="opacity: 0.5;">Contact us at:  </span>
-        <a href="#">hello@pramp.com</a> 
-      </div>
-      <div class="col-12 col-lg-2 border-end">
-        <a href="#" style="color: black;">PRATICE WITH FRIENDS</a> 
-      </div>
-      <div class="col-12 col-lg-2 border-end">
-        <a href="#" style="color: black;">WORK WITH US</a> 
-      </div>
-      <div class="col-12 col-lg-2 border-end">
-        <a href="#" style="color: black;">JOB BOARD</a> 
-      </div>
-      <div class="col-12 col-lg-2 border-end">
+     
+      <div class="col-12 col-lg-6 text-center">
+        <a href="#" style="color: black; display: inline-block; margin-right: 15px; padding-right: 15px;" class="border-end">
+          PRATICE WITH FRIENDS
+        </a> 
+        <a href="#" style="color: black; display: inline-block; margin-right: 15px; padding-right: 15px;" class="border-end">
+          WORK WITH US
+        </a> 
+        <a href="#" style="color: black; display: inline-block; margin-right: 15px; padding-right: 15px;" class="border-end">
+          JOB BOARD
+        </a> 
         <span style="opacity: 0.5;">Join us on  </span>
         <a href="#" id="ftlk"> 
           <img src="https://www.pramp.com/img/LinkedinGreen.png" alt="lkdn" class="footerlinkedinlink"> 
@@ -545,6 +549,7 @@
           <img src="https://www.pramp.com/img/TwitterGreen.png" alt="Twitter" class="footertweeterlink">
         </a>
       </div>
+      
     </div>
 
   </div>
